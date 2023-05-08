@@ -1,3 +1,5 @@
+-- Creado para MySQL 8.0 sobre Ubuntu 22.02
+-- Crea una tabla llamada 'data', con una estructura común para los años 2014-2022. Contiene campos varchar dado que las tablas orginales del portal de datos abiertos contienen valores vacíos y nulos.
 CREATE TABLE IF NOT EXISTS `data` (
 `ANO_EJE` varchar(5) NOT NULL,
 `MES_EJE` varchar(5) NOT NULL,
